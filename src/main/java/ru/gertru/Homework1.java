@@ -20,11 +20,11 @@ public class Homework1 {
         String result3 = regionName.substring(5,6); // Извлечение подстроки по индексам начального и конечного символов
         System.out.println("6й сивол в строке: \"" + result3 + "\"");
 
-        int result4 = regionName.indexOf('е'); //Возвращается индекс первого найденного символа 'е' в строке
-        System.out.println("Индекс первого символа 'е': " + result4);
+        int result4 = regionName.indexOf("е"); //Возвращается индекс первой найденной строки 'е' в переданной строке
+        System.out.println("Индекс первой строки 'е': " + result4);
 
-        int result5 = regionName.lastIndexOf('е'); //Возвращается индекс последнего найденного символа 'е' в строке
-        System.out.println("Индекс последнего символа 'е': " + result5);
+        int result5 = regionName.lastIndexOf("е"); //Возвращается индекс последней найденной строки 'е' в переданной строке
+        System.out.println("Индекс последней строки 'е': " + result5);
 
         String result6 = regionName.toLowerCase(); // Перевод строки в нижний регистр
         System.out.println("Строка в нижнем регистре: \"" + result6 + "\"");
