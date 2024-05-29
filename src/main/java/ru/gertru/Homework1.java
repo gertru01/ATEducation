@@ -8,6 +8,9 @@ public class Homework1 {
         String regionName = "Санкт-Петербург ";
         System.out.println("Строка: \"" + regionName + "\"");
 
+        int result = regionName.length();
+        System.out.println("Кол-во символов в строке: " + result);
+
         boolean result1 = regionName.isEmpty(); // возвращает true, если переменная содержит пустое значение или null
         System.out.println("Строка пустая? - " + result1);
 
