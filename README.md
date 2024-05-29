@@ -14,33 +14,33 @@
 (тип данных для переменной зависит от результата работы метода).
 4. Пример:
 
-// Возвращает длину строки (количество символов
-String city = "Москва";
-int result = city. length();
-System.out.print1n(result) ;
-
-// другие методы ниже
-
-Методы
--isEmpty()
--isBlank()
--Substring(int, int)
--indexof (String)
--lastIndexof (String)
--toLowerCase()
-.toUpperCase()
--replace(String, String)
--startswith(String)
--endsWith(String)
--repeat(int)
-«contains (String)
--concat (String)
--trim()
--equals(String)
-в скобках указан тип принимаемого параметра
-
-Формат сдачи работы:
-® Вариант 1. Работа принимается в виде 2х скриншотов.
-  o На скрине 1 виден весь код работы.
-  о На скрине 2 - консоль с результатами работы.
-® Вариант 2. Работа принимается в виде ссылки на репозиторий. В файл readme.md вложите текст задания.
+// Возвращает длину строки (количество символов) <br />
+String city = "Москва"; <br />
+int result = city. length();<br />
+System.out.print1n(result) ;<br />
+<br />
+// другие методы ниже<br />
+<br />
+Методы<br />
+-isEmpty()<br />
+-isBlank()<br />
+-Substring(int, int)<br />
+-indexof (String)<br />
+-lastIndexof (String)<br />
+-toLowerCase()<br />
+.toUpperCase()<br />
+-replace(String, String)<br />
+-startswith(String)<br />
+-endsWith(String)<br />
+-repeat(int)<br />
+«contains (String)<br />
+-concat (String)<br />
+-trim()<br />
+-equals(String)<br />
+в скобках указан тип принимаемого параметра<br />
+<br />
+Формат сдачи работы:<br />
+® Вариант 1. Работа принимается в виде 2х скриншотов.<br />
+  o На скрине 1 виден весь код работы.<br />
+  о На скрине 2 - консоль с результатами работы.<br />
+® Вариант 2. Работа принимается в виде ссылки на репозиторий. В файл readme.md вложите текст задания.<br />
